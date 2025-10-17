@@ -1,126 +1,156 @@
-# SkillOra – Integrated Academic LMS + Coding Skill Development Platform
+# SkillOra – Integrated Academic LMS and Coding Skill Development Platform
 
-**Project Title:** SkillOra  
-**Selected Domain:** Education Technology, Web Development
+Domain: Education Technology | Web Development
+Hackathon Project Title: Learning Management System (LMS)
+Duration: 24 Hours
+Hosting Link: [Add your deployed project link here]
+GitHub Repository: [Add your repository link here]
 
-## Introduction
-**SkillOra** is a next-generation platform designed to integrate academic learning with coding skill development for university students. It combines a Learning Management System (LMS) with coding practice environments, fostering an engaging, personalized learning experience.
+**Team SkillOra**
+Name	                         Role	                     Responsibility
+NAIK TARUNSAI KSIHOR	  -     Team Lead	Full Stack Development, UI Design
+OGGU HARI VEERA RAMA PRASAD - Backend Developer	API Development, Database Integration
+MUDE GIRI NAIK	     -        AI Engineer	AI Coding Assistant and Model Integration
+Objective
+MOSA SAI CHARAN	      -       Frontend Developer	React Components, UI Implementation
 
-This project offers academic courses, coding challenges, and collaborative spaces along with AI-powered assistance, enabling students to enhance their knowledge and problem-solving skills efficiently.
+**SkillOra is an integrated Learning Management System (LMS) designed to enhance both academic learning and coding skill development.
+The platform bridges the gap between structured coursework and hands-on programming by combining academic modules, real-time AI assistance, and collaborative features for an engaging learning experience.**
 
----
+**Key Features (Mapped to Hackathon Levels)**
+Bronze Level – Core Functionality
 
-## Features & Modules
+User Registration and Secure Login (Student and Teacher roles)
 
-### 1. **Student Dashboard**
-The **Student Dashboard** offers a holistic view of your academic progress, coding achievements, and upcoming deadlines. It displays:
-- **Active Courses**: Overview of enrolled courses and progress.
-- **Coding Problems**: Track your progress with coding challenges.
-- **Assignments Due**: Keep an eye on upcoming assignments and exams.
-- **Coding Streak**: Monitor your consistency in coding practice.
-- **Upcoming Events**: See scheduled lectures, assignments, and exams.
+Role-based Access and Authentication using Firebase
 
-![Student Dashboard](./path-to-image1.png)
+Course Creation and Management by Teachers
 
----
+Course Listing and Browsing for Students
 
-### 2. **Academic Courses**
-Students can browse, enroll, and track progress in a variety of academic courses, including:
-- **Introduction to Computer Science**
-- **Web Development Fundamentals**
-- **Database Management Systems**
-  
-Courses are structured with content such as videos, PDFs, quizzes, and assignments for comprehensive learning.
+Silver Level – Intermediate Functionality
 
-![Academic Courses](./path-to-image2.png)
+Course Enrollment System for Students
 
----
+Student Dashboard displaying enrolled courses
 
-### 3. **AI Coding Assistant**
-The **AI Coding Assistant** helps students solve coding issues by providing real-time suggestions, debugging, and explaining coding concepts. 
-- **Code Optimization**: Get suggestions for improving your code.
-- **Debugging**: Ask for help with errors and get step-by-step guidance.
-- **Explanations**: Receive detailed explanations of algorithms, data structures, and code logic.
+Teacher Dashboard showing enrolled students and course status
 
-![AI Assistant](./path-to-image3.png)
+Gold Level – Advanced Functionality
 
----
+Assignment Creation and Submission System
 
-### 4. **Faculty Dashboard**
-Faculty members can track the progress of their students, upload learning materials, and manage assignments. Key features include:
-- **Course Management**: Add new materials, manage assignments, and monitor class progress.
-- **Attendance Tracking**: Keep track of student attendance.
-- **Student Analytics**: View detailed analytics of students’ performance in academic and coding tracks.
+File Upload Support for Assignments
 
-![Faculty Dashboard](./path-to-image4.png)
+Assignment Tracking and Evaluation Interface for Teachers
 
----
+Platinum Level – Expert Functionality
 
-### 5. **Faculty Course Management**
-Faculty members can manage all aspects of their courses, including:
-- **Uploading Learning Materials**: Add documents, videos, quizzes, and assignments.
-- **Creating Content**: Schedule new lectures and set up assessments.
-- **Monitoring Student Performance**: Keep track of students' progress and provide targeted feedback.
+Grading and Feedback System
 
-![Manage Courses](./path-to-image5.png)
+Grade View and Performance Tracking for Students
 
----
+Detailed Analytics Dashboard for Students and Faculty
 
-### 6. **Group Coding Rooms**
-The **Group Coding Rooms** feature facilitates real-time collaboration between students. Students can:
-- **Join Live Coding Sessions**: Work with peers on coding projects and assignments.
-- **Pair Programming**: Collaborate in real-time, sharing code and ideas.
+Discussion Forum and Real-time Notifications
 
-![Group Coding Rooms](./path-to-image6.png)
+AI Coding Assistant for Code Debugging, Optimization, and Concept Explanation
 
----
+**Additional Features**
 
-### 7. **Club Activities**
-Campus Bridge also supports extracurricular activities through **Club Management**, where students can join various clubs and participate in events:
-- **Technical Clubs**: Coding Club, Robotics Society.
-- **Cultural Clubs**: Photography Club, Music Club.
+AI Coding Assistant: Provides instant help, explanations, and code optimization suggestions.
 
-![Club Activities](./path-to-image7.png)
+Group Coding Rooms: Enables peer collaboration using real-time coding sessions.
 
----
+Smart Analytics: Offers insights into student progress, performance, and course completion.
 
-### 8. **Admin Dashboard**
-The **Admin Dashboard** provides a comprehensive overview of the platform’s performance:
-- **Student and Faculty Statistics**: View metrics on the total number of students and faculty members.
-- **Enrollment Trends**: Analyze student enrollment trends across various programs.
-- **Course Completion Rates**: Track the completion rates of courses across departments.
+Clubs and Activities Module: Promotes participation in technical and cultural clubs.
 
-![Admin Dashboard](./path-to-image8.png)
+**Tech Stack**
+Component	Technology
+Frontend	React.js, Tailwind CSS
+Backend	Node.js, Express.js
+Database	MongoDB (Atlas)
+AI Integration	Gemini / GPT API
+Authentication	Firebase
+Real-Time Collaboration	WebSockets
+Deployment	Vercel / Render / AWS
+System Architecture Overview
 
----
+Frontend (React): Builds a responsive, dynamic interface for students, faculty, and admins.
 
-### 9. **Reports & Analytics**
-Admins can generate detailed reports to monitor the platform’s performance, including:
-- **Program Enrollment Distribution**: Visualize student enrollment by program.
-- **Student Progress**: Track the completion rates and attendance for each department.
+Backend (Node.js, Express): Handles all server logic, APIs, and business operations.
 
-![Reports & Analytics](./path-to-image9.png)
+Database (MongoDB): Stores structured information about users, courses, and submissions.
 
----
+AI Layer: Integrates Gemini/GPT API for coding support and interactive learning.
 
-## Tech Stack Used
-- **Frontend:** React.js, Tailwind CSS
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB
-- **AI Integration:** Gemini/GPT for real-time code assistance
-- **Authentication:** Firebase
-- **WebSockets:** Real-time collaboration for Group Coding Rooms
-- **Cloud Storage:** AWS S3
+WebSocket Layer: Enables real-time collaboration in coding sessions.
 
----
+Installation and Local Setup
+Prerequisites
 
-## How to Run the Project Locally
+Node.js (version 14 or above)
 
-### Prerequisites:
-- **Node.js** (v14 or above)
-- **MongoDB** (or use MongoDB Atlas for cloud storage)
-- **Firebase** (for authentication)
+MongoDB or MongoDB Atlas
 
-### 1. Clone the Repository:
-```bash
-git clone https://github.com/yourusername/SkillOra.git
+Firebase configuration for authentication
+
+Steps
+# 1. Clone the repository
+git clone https://github.com/NaikTarunsaiKishor/SkillOra.git
+
+# 2. Navigate to the project directory
+cd SkillOra
+
+# 3. Install dependencies
+npm install
+
+# 4. Start the development server
+npm start
+
+
+#After starting, open http://localhost:3000 in a browser to view the application.
+
+**Core Modules Overview**
+Module	Description
+Student Dashboard	Displays enrolled courses, progress, assignments, and grades
+Faculty Dashboard	Manages course content, assignments, and student performance
+Admin Dashboard	Provides overall analytics, statistics, and management tools
+Coding Practice	Interactive coding environment with AI guidance
+Discussion Forum	Supports collaborative communication between students and faculty
+Notifications	Keeps users informed about assignments, grades, and announcements
+Hackathon Implementation Summary
+
+SkillOra fulfills all user stories outlined in the hackathon documentation:
+
+Level	Completion Summary
+Bronze	Registration, Login, and Course Management
+Silver	Course Enrollment and Role-based Dashboards
+Gold	Assignment Creation and Submission System
+Platinum	Grading System, Analytics, and AI-Powered Features
+
+This implementation ensures coverage of all functional levels with an emphasis on clean architecture, usability, and scalability.
+
+Deployment Details
+
+Live Application: [Insert your project link]
+
+Functionality: Fully implemented user stories (Bronze to Platinum) #Extra --> Dimond..
+
+Design & UX: Clean, responsive, and intuitive user interface
+
+Code Quality: Modular, readable, and scalable code structure
+
+Deployment: Successfully hosted and accessible across platforms
+
+Contact Information
+
+For project inquiries or collaborations:
+Email: skillora.team@gmail.com
+       naiktarunsai0@gmail.com
+
+GitHub: https://github.com/NaikTarunsaiKishor/SkillOra
+
+
+
