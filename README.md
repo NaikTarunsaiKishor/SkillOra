@@ -3,8 +3,8 @@
 Domain: Education Technology | Web Development
 Hackathon Project Title: Learning Management System (LMS)
 Duration: 24 Hours
-Hosting Link: [Add your deployed project link here]
-GitHub Repository: [Add your repository link here]
+Hosting Link: https://skillora-lms.netlify.app/
+GitHub Repository: https://github.com/NaikTarunsaiKishor/SkillOra
 
 **Team SkillOra**
 Name	                         Role	                     Responsibility
@@ -20,41 +20,41 @@ The platform bridges the gap between structured coursework and hands-on programm
 **Key Features (Mapped to Hackathon Levels)**
 Bronze Level – Core Functionality
 
-User Registration and Secure Login (Student and Teacher roles)
+1) User Registration and Secure Login (Student and Teacher roles)
 
-Role-based Access and Authentication using Firebase
+2) Role-based Access and Authentication using Firebase
 
-Course Creation and Management by Teachers
+3) Course Creation and Management by Teachers
 
-Course Listing and Browsing for Students
+4) Course Listing and Browsing for Students
 
-Silver Level – Intermediate Functionality
+5) Silver Level – Intermediate Functionality
 
-Course Enrollment System for Students
+6) Course Enrollment System for Students
 
-Student Dashboard displaying enrolled courses
+7) Student Dashboard displaying enrolled courses
 
-Teacher Dashboard showing enrolled students and course status
+8) Teacher Dashboard showing enrolled students and course status
 
-Gold Level – Advanced Functionality
+8) Gold Level – Advanced Functionality
 
-Assignment Creation and Submission System
+9) Assignment Creation and Submission System
 
-File Upload Support for Assignments
+10) File Upload Support for Assignments
 
-Assignment Tracking and Evaluation Interface for Teachers
+11) Assignment Tracking and Evaluation Interface for Teachers
 
-Platinum Level – Expert Functionality
+**Platinum Level – Expert Functionality**
 
-Grading and Feedback System
+> Grading and Feedback System
 
-Grade View and Performance Tracking for Students
+> Grade View and Performance Tracking for Students
 
-Detailed Analytics Dashboard for Students and Faculty
+> Detailed Analytics Dashboard for Students and Faculty
 
-Discussion Forum and Real-time Notifications
+> Discussion Forum and Real-time Notifications
 
-AI Coding Assistant for Code Debugging, Optimization, and Concept Explanation
+> AI Coding Assistant for Code Debugging, Optimization, and Concept Explanation
 
 **Additional Features**
 
@@ -87,8 +87,8 @@ AI Layer: Integrates Gemini/GPT API for coding support and interactive learning.
 
 WebSocket Layer: Enables real-time collaboration in coding sessions.
 
-Installation and Local Setup
-Prerequisites
+**Installation and Local Setup
+Prerequisites**
 
 Node.js (version 14 or above)
 
@@ -110,7 +110,7 @@ npm install
 npm start
 
 
-#After starting, open http://localhost:3000 in a browser to view the application.
+#After starting, open http://localhost:8080 in a browser to view the application.
 
 **Core Modules Overview**
 Module	Description
@@ -122,9 +122,9 @@ Discussion Forum	Supports collaborative communication between students and facul
 Notifications	Keeps users informed about assignments, grades, and announcements
 Hackathon Implementation Summary
 
-SkillOra fulfills all user stories outlined in the hackathon documentation:
+**SkillOra fulfills all user stories outlined in the hackathon documentation:**
 
-Level	Completion Summary
+--> Level	Completion Summary
 Bronze	Registration, Login, and Course Management
 Silver	Course Enrollment and Role-based Dashboards
 Gold	Assignment Creation and Submission System
@@ -134,7 +134,7 @@ This implementation ensures coverage of all functional levels with an emphasis o
 
 Deployment Details
 
-Live Application: [Insert your project link]
+Live Application: https://skillora-lms.netlify.app/
 
 Functionality: Fully implemented user stories (Bronze to Platinum) #Extra --> Dimond..
 
@@ -144,7 +144,7 @@ Code Quality: Modular, readable, and scalable code structure
 
 Deployment: Successfully hosted and accessible across platforms
 
-Contact Information
+**Contact Information**
 
 For project inquiries or collaborations:
 Email: skillora.team@gmail.com
